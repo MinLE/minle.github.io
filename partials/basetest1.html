@@ -1,0 +1,31 @@
+<style type="text/css">
+  body {
+    padding-top: 70px;
+    /*padding-bottom: 30px;*/
+  }
+</style>
+<div class="container">
+  <div class="jumbotron">
+    <h1>没错！这是一个在线聊天页面</h1>
+    <p>So just enjoy it</p>
+    <p>
+      <a = href="javascript:dontclick()" class="btn btn-primary btn-lg" role="button">不要点这个按钮 &raquo;</a>
+    </p>
+  </div>
+
+  <div class="starter-template row">
+    <div class="panel panel-default col-md-8" id='messagesDiv'></div>
+    <div class="col-md-4">
+      <form class="form-group" role="form">
+        <div class="form-group">
+          <input class="form-control" type="text" id="nameInput" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" id="messageInput" placeholder="Message">
+        </div>
+        <button class="btn btn-primary" onclick="clickButton()">Say <span class="glyphicon glyphicon-plus"></span></button>
+        <button type="reset" class="btn btn-default">RESET <span class="glyphicon glyphicon-refresh"></span></button>
+      </form>
+    </div>
+  </div>
+</div>
